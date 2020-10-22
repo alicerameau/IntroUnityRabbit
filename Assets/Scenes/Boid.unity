@@ -245,12 +245,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabBoid: {fileID: 6185801013498856187, guid: 7a04e905a66bcbc4bb74b3b596541d6e, type: 3}
-  nbBoids: 50
+  nbBoids: 100
   startSpeed: 1
   startSpread: 10
   maxDistBoids: 30
+  Sol: 0
   periodRetargetBoids: 6
   periodNoTargetBoids: 3
+  periodLandedBoids: 6
+  setBirdView: 1
 --- !u!4 &807038811
 Transform:
   m_ObjectHideFlags: 0
@@ -259,7 +262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807038809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.755846, y: -29.80136, z: -4.0159607}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
